@@ -1,8 +1,10 @@
 body{
-  background-color: green;
+  background-color: #1a1a1f;
   margin: 0;
   padding: 0;
   font-family: Roboto, Arial;
+  height: 1000px;
+  
 }
 
 .nav-bar{
@@ -10,6 +12,13 @@ body{
   justify-content: space-between;
   background-color: #1a1a1f;
   height: 45px;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  border-bottom-color: transparent;
+  z-index: 300;
 }
 
 .left-section{
@@ -95,5 +104,20 @@ body{
 
 .right-section{
   display: flex;
+  margin-left: 8px;
+  margin-right: 8px;
+  background-color: #2c2b31;
+  color: #b7b4bf;
+  font-size: 12px;
   align-items: center;
+  padding-left: 5px;
+  padding-right: 5px;
+  height: 30px;
+  cursor: pointer;
+}
+.small-line2{
+  background-color: #fff1;
+  height: 20px;
+  margin: 0 8px;
+  width: 1px;
 }
