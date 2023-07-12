@@ -1,4 +1,4 @@
-🌟 Welcome to THeSkinHub 🎮
+## 🌟 Welcome to THeSkinHub 🎮
 
 🔗 GitHub Repository: TheSkinHub_Clone
 
