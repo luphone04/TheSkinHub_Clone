@@ -6,6 +6,7 @@ body{
   background-color: #1a1a1f;
   padding-top: 45px;
   padding-left: 200px;
+  height: 10000px;
 }
 
 * {
@@ -81,76 +82,96 @@ body{
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .frontpage-section{
-  padding-top: 45px;
+.update-container{
   display: flex;
-  color: white;
+  margin-top: 100px;
   align-items: center;
-  justify-content: center;
+}
 
+.update{
+  font-size: 24px;
+    font-style: normal;
+    line-height: 1.5;
+    font-weight: 700;
+    margin-right: 16px;
+    color: #efeff5;
+}
+
+.grey-line{
+  background-color: #fff1;
+    border-radius: 1px;
+    height: 2px;
+    width: 69.3%;
 }
 
 
-.left-half{
-  height: 100vh;
-  background-color: #1a1a1f;
+.update-container1{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-top: 50px;
+  margin-right: 200px;
+  column-gap: 20px;
+}
+.update-contain{
+  color: #b7b4bf;
+  text-align: center;
+  background-color: #222127;
+  padding: 18px;
+  border-radius: 25px;
+  cursor: pointer;
+  transform: opacity 0.2s ease-in-out;
+}
+
+
+.update-contain:hover{
+  opacity: 0.9;
+  background-color: rgba(228, 219, 219, 0.104);
+}
+
+
+.contain-img{
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+
+
+.skin-explain-container{
+  background-image: url(picture/for-every-skin-37a0074caed8cfd64cc1a5d95f37b7ad.webp);
+  margin-right: 200px;
+  height: 500px;
+  background-size: 800px 400px;
+  background-repeat: no-repeat;
+  background-position: -130px 70px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  width: 70%;
-}
-.ad-title {
-  font-size: 3.625em;
-  font-style: normal;
-  line-height: 1.2;
-  font-weight: 700;
-  color: #efeff5;
-  display: grid;
-  margin: 0;
-  text-transform: uppercase;
+  align-items: flex-end;
 }
 
-.ad-span{
-  color: #a19ce0;
+
+.explain-title-container{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 180px;
 }
 
-.front-page-detail{
-  font-size: 1.5em;
+.explain-title{
+  font-size: 1.8em;
   font-style: normal;
   line-height: 1.5;
-  font-weight: 400;
+  font-weight: 700;
+  color: #efeff5;
+
+}
+
+.explain-list{
   color: #b7b4bf;
-  margin: 0;
-  max-width: 512px;
+  font-size: 20px;
+  padding-bottom: 10px;
 }
 
-.right-half{
-  width: 30%;
-}
 
-.frontpage-gun{
-  width: 500px;
-  /* height: 100%; */
-  object-fit: cover;
-  object-position: center;
-} */
+
+
